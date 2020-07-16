@@ -1,0 +1,23 @@
+let t="hello,i am yash"
+let t2="LETS upgrade"
+console.log(t)
+console.log(t.length)
+console.log(t.search("e"))
+console.log(t.split('a'))
+console.log(t.startsWith())
+console.log(t.toLocaleUpperCase())
+console.log(t2.toLocaleLowerCase())
+let array=['one',1,2,3,4,[9,8,7,6,5]]
+console.log(array)
+console.log(array.sort())
+console.log(array.slice(0,3))
+console.log(array.shift())
+console.log(array.reverse())
+console.log(array.push(100))
+console.log(array)
+console.log(array.pop())
+console.log(array.lastIndexOf(4))
+console.log(array.length)
+console.log(array.join(''))
+console.log(array.unshift("covid"))
+console.log(array)
