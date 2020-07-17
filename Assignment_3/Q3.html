@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> Day 3 Assignment 3
+        </title>
+    </head>
+    <bidy>
+        <script>
+        let marks= +prompt("enter your all marks average")
+        document.write("<h2>using ifelse</h2>")
+        if (marks<=35)
+        {
+           document.write("sry to say,u r <h1>failed</h1>")
+        }
+        else if(marks>35 && marks<=60)
+        {
+            document.write("<h1>congrats !!</h1> u r passed in second class")
+        }
+        else if (marks>60 && marks<85)
+        {
+             document.write("<h1>congrats !!!<h1> u r passed in first class") 
+        }
+        else
+        {
+            document.write("<h1>congrats !!!!<h1> u r passed in distinction")
+        }
+        document.write("<h2>using ternary</h2>")
+         let result=(marks<=35)? 'sry to say,u r failed ':(marks>35 && marks<=60)?'congrats !! u r passed in second class':(marks>60 && marks<85)?"congrats !!!u r passed in first class":"congrats !!!! u r passed in distinction";
+          document.write(result)
+              
+        </script>
+        </bidy>
+</html>
