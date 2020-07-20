@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Day 4 Question 8</title>
+    </head>
+    <body>
+        <script>
+        
+             let ask= (question,yes,no)=>{
+                if (confirm(question)) yes()
+                else no();}
+
+           let after= ask(
+                "do you agree?",
+                function(){ alert("you agreed");},
+                function(){ alert("you canceled");}
+            );
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Day 4 Question 1</title>
+    </head>
+    <body>
+        <script>
+            for(let i=1;i<=100;i++)
+            {
+               if(i%3==0 && i%5==0)
+               {
+                   document.write(`<h1>${i} is fizzbuzz</h1></br>`);
+               }
+               else if(i%5==0)
+               {
+                document.write(`<h4>${i} is buzz</h4></br>`);
+               }
+               else if(i%3==0)
+               {
+                document.write(`${i} is fizz</br>`);
+               }
+               else
+               {
+                   continue
+               }
+            }
+        </script>
+    </body>
+</html>
